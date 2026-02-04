@@ -1,5 +1,3 @@
-// 苹果cms必备
-var maccms={"path":"__ROOT__","mid":"{$maccms['mid']}","url":"{$maccms['site_url']}","wapurl":"{$maccms['site_wapurl']}","mob_status":"{$maccms['mob_status']}"};
 
 
 // 返回顶部
