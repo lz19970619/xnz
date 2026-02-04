@@ -5,7 +5,6 @@
   
   // 如果box已经有innerHTML了，就跳过
   if (box.innerHTML.trim() !== '') {
-   
     return;
   }
   
