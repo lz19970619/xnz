@@ -5,7 +5,7 @@
   
   // 如果box已经有innerHTML了，就跳过
   if (box.innerHTML.trim() !== '') {
-    console.log('grid-box已经有内容了，跳过JS生成');
+   
     return;
   }
   
