@@ -1,3 +1,6 @@
+// 苹果cms必备
+var maccms={"path":"__ROOT__","mid":"{$maccms['mid']}","url":"{$maccms['site_url']}","wapurl":"{$maccms['site_wapurl']}","mob_status":"{$maccms['mob_status']}"};
+
 
 String.prototype.replaceAll  = function(s1,s2){ return this.replace(new RegExp(s1,"gm"),s2); }
 String.prototype.trim=function(){ return this.replace(/(^\s*)|(\s*$)/g, ""); }
