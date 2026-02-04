@@ -1,32 +1,35 @@
-const GRID_DATA = {
-  boxId: 'grid-box',
-  
-  items: [
-    {
-      name: "广告招租",  // 显示名字
-      url: "#"  // 跳转地址
-    },
-    {
-      name: "广告招租",
-      url: "#"
-    },
-    {
-      name: "广告招租",
-      url: "#"
-    },
-    {
-      name: "广告招租",
-      url: "#"
-    },
-    {
-      name: "广告招租",
-      url: "#"
-    }
-  ]
-};
-
-// 以下代码不要修改
 (function() {
+  const GRID_DATA = {
+    boxId: 'grid-box',
+    
+    items: [
+      {
+        name: "广告招租",
+        url: "#"
+      },
+      {
+        name: "广告招租",
+        url: "#"
+      },
+      {
+        name: "广告招租",
+        url: "#"
+      },
+      {
+        name: "广告招租",
+        url: "#"
+      },
+      {
+        name: "广告招租",
+        url: "#"
+      }
+    ]
+  };
+
+  // 检查是否已存在同名变量，避免重复执行
+  if (window.__GRID_INITIALIZED__) return;
+  window.__GRID_INITIALIZED__ = true;
+  
   const config = window.GRID_DATA || GRID_DATA;
   const box = document.getElementById(config.boxId);
   
